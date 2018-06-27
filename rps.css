@@ -1,0 +1,20 @@
+.hidden {
+    display: none;
+}
+div {
+    color: blue;
+    font-size: 50px;
+    font-family: "Impact";
+    text-align: center;
+}
+h1 {
+    font-size:50px;
+}
+h2 {
+    font-size:30px;
+}
+h3 {
+    font-size:30px;
+}h4 {
+    font-size:30px;
+}
