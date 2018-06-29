@@ -10,6 +10,8 @@ function rock() {
     checkWin();
     checkLoss();
     checkDraw();
+    playerRock.classList.remove("hidden");
+    showOppChoice();
 }
 
 function paper() {
@@ -17,6 +19,8 @@ function paper() {
     checkWin();
     checkLoss();
     checkDraw();
+    playerPaper.classList.remove("hidden");
+    showOppChoice();
 }
 
 function scissors() {
@@ -24,6 +28,21 @@ function scissors() {
     checkWin();
     checkLoss();
     checkDraw();
+    playerScissors.classList.remove("hidden");
+    showOppChoice();
+}
+
+function showOppChoice() {
+    if (combination[0] === 1) {
+        opponentRock.classList.remove("hidden");
+    }
+    if (combination[0] === 2) {
+        opponentPaper.classList.remove("hidden");
+    }
+    if (combination[0] === 3) {
+        opponentScissors.classList.remove("hidden");
+    }
+
 }
 
 function checkWin() {
