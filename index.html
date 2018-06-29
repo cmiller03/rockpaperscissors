@@ -1,17 +1,42 @@
 <html>
-    <head>
-        <title>Rock, Paper, Scissors</title>
-        <link type="text/css" rel="stylesheet" href="rps.css" />
-    </head>
-    <body>
-        <h1>Rock, Paper, Scissors</h1>
-        <div id="youWonDiv" class ="hidden">You Won!</div>
-        <div id="youLostDiv" class="hidden">You Lost</div>
-        <div id="itsADraw" class="hidden">It's a Draw</div>
-        <script src="rps.js"></script>
-        <h2 onclick="rock()">Rock</h2>
-        <h3 onclick="paper()">Paper</h3>
-        <h4 onclick="scissors()">Scissors</h4>
 
-    </body>
+<head>
+    <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+    <link type="text/css" rel="stylesheet" href="rps.css" />
+    <h1>Rock, Paper, Scissors
+        <br>
+
+        <font size="5">Click to choose your object. </font>
+    </h1>
+    <a>
+    <div id="youWonDiv" class="hidden">You Won!</div>
+    <div id="youLostDiv" class="hidden">You Lost</div>
+    <div id="itsADraw" class="hidden">It's a Draw</div>
+    </a>
+    <div id="opponentRock" class="hidden"></div>
+    <div id="opponentPaper" class="hidden"></div>
+    <div id="opponentScissors" class="hidden"></div>
+    <div id="playerRock" class="hidden"></div>
+    <div id="playerPaper" class="hidden"></div>
+    <div id="playerScissors" class="hidden"></div>
+    <script src="rps.js"></script>
+    <h2 onclick="rock()">Rock</h2>
+    <h3 onclick="paper()">Paper</h3>
+    <h4 onclick="scissors()">Scissors</h4>
+    <br>
+    <br>
+    <br>
+    <div id="yourChoice">Your choice</div><div id="oppChoice">Computer's choice</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button onclick="location.reload()">New Game</button>
+
+</body>
+
 </html>
