@@ -1,11 +1,13 @@
 .hidden {
     display: none;
 }
-div {
+a {
+    position: absolute;
     color: blue;
     font-size: 50px;
     font-family: "Impact";
-    text-align: center;
+    top: 100px;
+    left: 350px;
 }
 h1 {
     font-size:50px;
@@ -17,4 +19,70 @@ h3 {
     font-size:30px;
 }h4 {
     font-size:30px;
+}
+#opponentRock {
+    position: absolute;
+    width: 100px;
+    height: 59px;
+    top: 330px;
+    left: 750px;
+    background-image: url("rock2.png");
+} 
+#opponentPaper {
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    top: 320px;
+    left: 750px;
+    background-image: url("paper.png");    
+}
+#opponentScissors {
+    position: absolute;
+    width: 150px;
+    height: 51px;
+    top: 330px;
+    left: 730px;
+    background-image: url("scissors.png");
+}
+#playerRock {
+    position: absolute;
+    width: 100px;
+    height: 59px;
+    top: 330px;
+    left: 50px;
+    background-image: url("rock2.png");
+}
+
+#playerPaper {
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    top: 320px;
+    left: 50px;
+    background-image: url("paper.png");
+}
+
+#playerScissors {
+    position: absolute;
+    width: 150px;
+    height: 51px;
+    top: 330px;
+    left: 30px;
+    background-image: url("scissors2.png");
+}
+
+#yourChoice {
+    position: absolute;
+    left: 50px;
+    font-family: "Times";
+    color: gray;
+    font-size: 20px;
+}
+
+#oppChoice {
+    position: absolute;
+    left: 730px;
+    font-family: "Times";
+    color: gray;
+    font-size: 20px;
 }
